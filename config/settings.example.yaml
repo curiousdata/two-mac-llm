@@ -1,0 +1,13 @@
+main:
+  host: "10.42.0.1"
+
+worker:
+  host: "10.42.0.2"
+  port: 50052
+
+paths:
+  llama_cpp_bin: "~/projects/two-mac-llm/vendor/llama.cpp/build/bin"
+  model_path: "~/projects/two-mac-llm/models/model.gguf"
+
+runtime:
+  prompt: "Say hello in one short sentence."

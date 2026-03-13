@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+
+# macOS
+.DS_Store
+
+# Local artifacts
+logs/
+models/
+
+# llama.cpp build artifacts
+vendor/llama.cpp/build/
+
+# IDE
+.vscode/settings.json
